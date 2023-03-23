@@ -15,18 +15,28 @@
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
 
-3/22/2023
-- Finished creating dictionary with personas where:
-  -> key: {(recipe): result}
-- Created a test of a bfs search on a smaller dictionary, then tested it on persona_list dictionary
+3/23/2023
+After thinking about this a bit more, the final search looks like this:
+  1) Using a priority queue to search through recipes
+  2) For each recipe that that persona has:
+    a. Find the "cost", which is the recipe's resulting persona's base level + how many personas are in recipe + current cost of path
+    b. If that persona is not explored or the cost is better,
+      i.) next_actions gets path with new recipe attached
+      ii.) Priority is determined by the cost + [(end persona base level) - (result persona base level)],
+           and the thought there is if the result persona's base level > end persona base level, that result persona
+           might be too far off for now and it might be better to look at resulting persona base levels that are closer
+           to the end persona's base level given where we are now
+    c. Push that into the queue
 
-When running the bfs search on persona_list, the path given was long for a fusion path that should be fairly short.
-(Orpheus to unicorn should go orpheus + alp -> unicorn or something similar)
-I also want to include a type of heuristic that would make paths a bit shorter, and for a while I was stuck on it
-until I thought about adding base levels + Arcanas.
+The result gives us something like this, if we're looking at a path from Orpheus to Ose:
+orpheus + pixie + ara mitama = oberon
+oberon + berith = ares
+ares + mokoi + naga = ose
 
-Going to redo the dictionary a bit then and add another dictionary with the levels and Arcanas for each Persona first,
-then worry about heuristics + how that plays a role in the search.
+What I want to do next is test it with various different paths, and to make sure both dictionaries in p3p_dict.py are correct.
 
-Also read up more on the fusion chart and learned a bit more about how fusions are calculated.
-I think with dictionaries for the base levels + the cheapest fusion recipes, it could make for a better fusion path.
+At the moment, the recipes used are the cheapest ones given by the fusion calculators linked in the comments, or the special
+fusion recipes that are available. I did that because as you go up in levels, the possible fusion recipes tend to go up,
+and I feel like calculating that and processing the results in this search could make it messy and maybe even slow it down with all
+the possible branches. I'm a bit worried, though, that if because I'm limiting myself to the cheapest recipes, some paths might take longer
+than what's actually needed. Maybe I'll go back and add a few more recipes? Not sure yet, and I think testing will help me decide.
