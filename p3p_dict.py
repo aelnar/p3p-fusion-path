@@ -9,6 +9,7 @@
     -> make sure to check special recipe fusions and add them
 
     add comma to tuples with only one var
+    STOPPED AT CHI YOU
 
 """
 

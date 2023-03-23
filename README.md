@@ -14,3 +14,19 @@
 
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
+
+3/22/2023
+- Finished creating dictionary with personas where:
+  -> key: {(recipe): result}
+- Created a test of a bfs search on a smaller dictionary, then tested it on persona_list dictionary
+
+When running the bfs search on persona_list, the path given was long for a fusion path that should be fairly short.
+(Orpheus to unicorn should go orpheus + alp -> unicorn or something similar)
+I also want to include a type of heuristic that would make paths a bit shorter, and for a while I was stuck on it
+until I thought about adding base levels + Arcanas.
+
+Going to redo the dictionary a bit then and add another dictionary with the levels and Arcanas for each Persona first,
+then worry about heuristics + how that plays a role in the search.
+
+Also read up more on the fusion chart and learned a bit more about how fusions are calculated.
+I think with dictionaries for the base levels + the cheapest fusion recipes, it could make for a better fusion path.
