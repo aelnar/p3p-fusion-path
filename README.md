@@ -23,8 +23,8 @@
  There's two layers to it:
  
  Normal fusions between two Personas happen normally, and the Arcana combos are in one dictionary.
- This should be easy to implement, and a reicpe will be added based on the current Persona's base level +
- any Persona ~10 levels or so around it = a new Persona to reach. It'll be easy to limit which Personas
+ This should be easy to implement, and a recipe will be added based on the current Persona's base level +
+ any Persona >10 levels or so around it = a new Persona to reach. It'll be easy to limit which Personas
  we add and which ones we don't have to.
  
  Triple fusions are a different story. I didn't want it taking up time trying to find triple fusions that either
@@ -33,8 +33,9 @@
  
  What I'm doing for triple fusions, then, is a mix of how I'm doing normal fusions and what I did beforehand.
  I'm going to find Personas that rely on triple fusions and put them in a dictionary, as well as the Arcana
- combos that make them up. If the current Persona is 1) in the triple fusion recipe, and 2) the resulting
- Persona from that triple fusion is in the ~10 base level range, then I'm going to find the Personas that fit
+ combos that make them up. If the current Persona is in the triple fusion recipe, is it worth it to try it?
+ For all the possible Personas the current Persona can fit into, I'm going to see which one would best
+ get us to our end goal Persona the quickest with end goal lvl - base lvl. After finding that, then I'm going to find the Personas that fit
  the Arcana combos + the resulting persona's base level range and go from there. I think doing it like this
  would help if the fusion path is going backwards, and covers if going up and down base levels. This will
  definitely be the most difficult thing to execute, but I'd rather try than not get it at all, ya know?
