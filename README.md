@@ -17,16 +17,16 @@
 
 3/23/2023
 After thinking about this a bit more, the final search looks like this:
-  1) Using a priority queue to search through recipes
-  2) For each recipe that that persona has:
-    a. Find the "cost", which is the recipe's resulting persona's base level + how many personas are in recipe + current cost of path
-    b. If that persona is not explored or the cost is better,
-      i.) next_actions gets path with new recipe attached
-      ii.) Priority is determined by the cost + [(end persona base level) - (result persona base level)],
-           and the thought there is if the result persona's base level > end persona base level, that result persona
-           might be too far off for now and it might be better to look at resulting persona base levels that are closer
-           to the end persona's base level given where we are now
-    c. Push that into the queue
+1) Using a priority queue to search through recipes
+2) For each recipe that that persona has:
+- Find the "cost", which is the recipe's resulting persona's base level + how many personas are in recipe + current cost of path
+- If that persona is not explored or the cost is better,
+ - next_actions gets path with new recipe attached
+ - Priority is determined by the cost + [(end persona base level) - (result persona base level)],
+and the thought there is if the result persona's base level > end persona base level, that result persona
+might be too far off for now and it might be better to look at resulting persona base levels that are closer
+to the end persona's base level given where we are now
+3) Push that into the queue
 
 The result gives us something like this, if we're looking at a path from Orpheus to Ose:
 orpheus + pixie + ara mitama = oberon
