@@ -29,9 +29,7 @@ to the end persona's base level given where we are now
 3) Push that into the queue
 
 The result gives us something like this, if we're looking at a path from Orpheus to Ose:
-orpheus + pixie + ara mitama = oberon
-oberon + berith = ares
-ares + mokoi + naga = ose
+orpheus + pixie + ara mitama = oberon -> oberon + berith = ares -> ares + mokoi + naga = ose
 
 What I want to do next is test it with various different paths, and to make sure both dictionaries in p3p_dict.py are correct.
 
