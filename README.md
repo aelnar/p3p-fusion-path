@@ -14,23 +14,36 @@
 
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
- 
+
+ -- 3/30/2023 --
+
+ A new ver of path.py was made based on fusion results, but it takes forever.
+
+ I want to think of a way to trim the amount of fusions being looked into, because
+ it's definitely taking a toll on the runtime. I think trimming any Persona <= end_goal Persona
+ from the frontier might make it run a little smoother.
+
+ There's also definitely some spelling mistakes/range stuff that's being pointed out in this,
+ so there's also that.
+
+ So for the most part, now it's time to iron out any problems in path.py
+
  --- 3/25/2023 ---
- 
+
  Going to try calculating paths using base levels + Arcana fusions rather than set recipes,
  just to really open up what recipes + paths it could take.
- 
+
  There's two layers to it:
- 
+
  Normal fusions between two Personas happen normally, and the Arcana combos are in one dictionary.
  This should be easy to implement, and a recipe will be added based on the current Persona's base level +
  any Persona >10 levels or so around it = a new Persona to reach. It'll be easy to limit which Personas
  we add and which ones we don't have to.
- 
+
  Triple fusions are a different story. I didn't want it taking up time trying to find triple fusions that either
  didn't exist, or trying to find fusions that are levels above where we were that weren't necessary. There's also
  just so many combos for triple fusions.
- 
+
  What I'm doing for triple fusions, then, is a mix of how I'm doing normal fusions and what I did beforehand.
  I'm going to find Personas that rely on triple fusions and put them in a dictionary, as well as the Arcana
  combos that make them up. If the current Persona is in the triple fusion recipe, is it worth it to try it?
@@ -39,7 +52,7 @@
  the Arcana combos + the resulting persona's base level range and go from there. I think doing it like this
  would help if the fusion path is going backwards, and covers if going up and down base levels. This will
  definitely be the most difficult thing to execute, but I'd rather try than not get it at all, ya know?
- 
+
  So that's what's being worked on at the moment. If I can figure out normal + triple fusions and their
  relation to finding fusion paths, I can easily fit them into the search I have going on now, and it should
  result in better paths. :)
