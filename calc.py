@@ -95,10 +95,15 @@ def normal_spreads(curr):
 def special_spreads(curr):
 
     results = [] # list of personas to be returned
+    sf_list = []
 
     for sf in special_fusions: # for every special fusion persona
+        # turn tuple into list, append resulting persona at end, then append it as a tuple again
+        # makes it consistent with other fcns in this file
         if(curr in special_fusions[sf]):
-            results.append((special_fusions[sf], sf))
+            sf_list = list(special_fusions[sf])
+            sf_list.append(sf)
+            results.append(tuple(sf_list))
 
     return results # return list
 

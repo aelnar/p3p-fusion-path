@@ -26,73 +26,60 @@ explored = [] # explored nodes
 # inner tuple is -> persona, path so far, cost of path
 frontier.put((1, (start_persona, [], 0)))
 
-# while loop for the whole search
+# START OF WHILE LOOP
 while not frontier.empty():
 
-    child = frontier.get() # pop child off queue
-    path_so_far = child[1][1] # gets path from child obj
-    explored.append(child[1][0]) # this persona has been explored now
+    # taking off front of queue and putting it into explored
+    child = frontier.get()
+    path_so_far = child[1][1]
+    explored.append(child[1][0])
 
+    curr_persona_lvl = find_base_lvl(child[1][0]) # curr persona base level
 
-    if child[1][0] == end_persona: # we've reached the end
-        #s = str(start_persona)
-
-        """
+    # we've reached the goal persona
+    if child[1][0] == end_persona:
+        # printing recipes but nice
+        s = str(start_persona)
         for p in path_so_far: # iterating through entire path
-            for pp in p[0]: # iterating through tuple with recipes
-                s += " + " + pp
-            s += " = " + p[1]
+            for p1 in p: # for each part of the recipe
+                if p1 not in s: # if it's not in the stringfor this iterration
+                    if p1 is not p[len(p)-1]: # if the persona is not the resulting one or not the one that was already put in
+                        s += " + " + p1
+                    else: # resulting persona
+                        s += " = " + p1
             print(s)
-            s = p[1]
-        """
+            s = p[len(p)-1]
+        break
 
-        print(path_so_far)
-
-        break # exit out search -> we found path
-
-    # now we find the recipes using normal_spreads, special_spreads, and triple_spreads that our current persona can have
-    # tuples should be (recipe parts, result) where the last persona is always the result of that fusion
+    # find all recipes available for current persona using fcns from calc.py
     results = normal_spreads(child[1][0]) + special_spreads(child[1][0]) + triple_spreads(child[1][0])
 
-    # filter results list of dupes
-    # just take the first result of that persona and put it into list final_recipes
-    final_recipes = []
-    final_recipe_personas = []
-    for rp in results: # for all results
-        if (rp[len(rp)-1] not in final_recipe_personas): # if that persona is not in this list keeping track of that, append
-            final_recipes.append(rp)
-            final_recipe_personas.append(rp[len(rp)-1])
+    # there might be some dupes in this list
+    # take first instance of persona and put that into list results_v1
+    results_v1 = []
+    results_v1_personas = []
+    for rp in results:
+        if(rp[len(rp)-1] not in results_v1_personas): # if persona not in list tracking personas, append
+            results_v1.append(rp)
+            results_v1_personas.append(rp[len(rp)-1])
 
-    # for each recipe possible
-    for recipe in final_recipes:
+    # for all recipes in results_v1
+    for recipe in results_v1:
 
-        # if the recipe includes the end persona, don't include it in queue
-        if end_persona in recipe:
+        # if end_persona is in the recipe and it's not the result but part of the recipe
+        # don't bother with this recipe
+        if end_persona in recipe and end_persona != recipe[len(recipe)-1]:
             continue
 
         # calculate the cost of this recipe:
-        # cost of going from curr to this recipe + cost of personas needed for this recipe compared to curr + current cost
-        new_cost = abs(find_base_lvl(recipe[len(recipe)-1]) - find_base_lvl(child[1][0])) + child[1][2]
+        # cost of going from curr to this recipe + current cost
+        new_cost = abs(find_base_lvl(recipe[len(recipe)-1]) - curr_persona_lvl) + child[1][2]
 
-        # add cost of personas needed for this recipe compared to curr by finding out if it's a normal, triple, or special fusion
-        lvl_cost = 0
-        if (recipe[len(recipe)-1] in special_fusions_list): # if it's a special fusion
-            for sr in recipe[0]:
-                lvl_cost += find_base_lvl(sr)
-            new_cost += abs(find_base_lvl(child[1][0]) - lvl_cost)
-        elif ((len(recipe)-1) == 2): # if it's a triple fusion
-            lvl_cost = find_base_lvl(recipe[0]) + find_base_lvl(recipe[1])
-            new_cost += abs(find_base_lvl(child[1][0]) - lvl_cost)
-        else: # normal fusion
-            lvl_cost = find_base_lvl(recipe[0])
-            new_cost += abs(find_base_lvl(child[1][0]) - lvl_cost)
-
-        # if resulting persona is not in exlored, or this new cost is better than the one before
+        # if we havent explored node or we have a better cost
         if ((recipe[len(recipe)-1] not in explored) or (new_cost < child[1][2])):
             next_actions = path_so_far + [recipe] # next_actions = prev recipes + curr recipe, with resulting personas
 
             # our priority is going to be based on the new_cost + heuristic
             # where heuristic is how far the resulting persona is away from the end persona based on base lvl
-            priority = new_cost + abs((end_persona_base_level - find_base_lvl(recipe[len(recipe)-1]))) # CHECK THIS
-            # add it to frontier to be explored
-            frontier.put((priority, (recipe[len(recipe)-1], next_actions, new_cost)))
+            priority = new_cost + abs((end_persona_base_level - find_base_lvl(recipe[len(recipe)-1])))
+            frontier.put((priority, (recipe[len(recipe)-1], next_actions, new_cost))) # add it to frontier to be explored
