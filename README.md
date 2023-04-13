@@ -15,6 +15,15 @@
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
 
+  --- 4/13/2023 ---
+
+  While testing combos, I kind of went on a detour and wanted to compile some data
+  on what is being used for the recipes.
+
+  So far with the tests I have, the Persona used most often is Pixie at 28, and the most
+  used Arcana is the Fool at 10 uses. I want to run more tests but it's interesting to see
+  these so far and to see if it'll change.
+
  --- 4/11/2023 ---
 
  A version where it's both calculating recipes based on the current Persona in the loop
