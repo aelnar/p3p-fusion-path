@@ -15,6 +15,22 @@
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
 
+ --- 4/18/2023 ---
+
+ Current results with more 88 tests:
+ The most used persona is apsaras with 51 uses.
+ The most used arcana is devil with 9 uses. (+ star, it's tied)
+ list of personas used zero times:  ['alice', 'alilat', 'arahabaki', 'atropos', 'attis', 'beelzebub', 'black frost', 'daisoujou', 'decarabia', 'girimehkala', 'hell biker', 'kali', 'kartikeya', 'kingu', 'kohryu', 'kusi mitama', 'lachesis', 'lamia', 'loa', 'mother harlot', 'narasimha', 'nidhoggr', 'norn', 'orobas', 'orpheus telos', 'ose', 'pale rider', 'principality', 'raja naga', 'raphael', 'sandalphon', 'satan', 'scathach', 'seiten taisei', 'shiisaa', 'shiva', 'siegfried', 'skadi', 'susano o', 'take mikazuchi', 'tam lin', 'thor', 'throne', 'titan', 'titania', 'trumpeter', 'virtue', 'yurlungur']
+
+ Arcana count:
+ {'devil': 9, 'lovers': 7, 'aeon': 5, 'fool': 6, 'justice': 6, 'priestess': 8, 'chariot': 8, 'sun': 8, 'moon': 7, 'emperor': 6, 'hierophant': 6, 'tower': 7, 'temperance': 8, 'fortune': 4, 'empress': 6, 'star': 9, 'death': 5, 'strength': 5, 'hanged man': 7, 'magician': 8, 'hermit': 8, 'judgment': 4}
+
+ A lot of the higher level + special fusion Personas aren't being used, and the least used Arcanas are Fortune and Judgment.
+ Looking at the roster for the Judgment arcana, it's mostly high level, so it makes sense based on the results above.
+ Not sure why Fortune is also lacking, but it is what is is sometimes.
+
+ Going to just round out the tests to 100 and see the results from there.
+
   --- 4/13/2023 ---
 
   While testing combos, I kind of went on a detour and wanted to compile some data

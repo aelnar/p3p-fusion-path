@@ -1,0 +1,625 @@
+orpheus ose - y
+--------------------------------------------
+orpheus + angel = alp
+alp + angel = chimera
+chimera + apsaras + inugami = hua po
+hua po + ara mitama = incubus
+incubus + yomotsu shikome + ara mitama = ose
+--------------------------------------------
+ose orpheus - y
+--------------------------------------------
+ose + ara mitama = king frost
+king frost + valkyrie = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + pixie + angel = slime
+slime + legion = orpheus
+--------------------------------------------
+arahabaki chi you - y
+--------------------------------------------
+arahabaki + lilim + nigi mitama = bishamonten
+bishamonten + lucifer = atavaka
+atavaka + apsaras + fortuna = chi you
+--------------------------------------------
+clotho narcissus - y
+--------------------------------------------
+clotho + inugami = jikokuten
+jikokuten + angel = genbu
+genbu + forneus = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + omoikane = ares
+ares + slime + pixie = narcissus
+--------------------------------------------
+yaksini thor - n
+--------------------------------------------
+--------------------------------------------
+cybele legion - y
+--------------------------------------------
+cybele + eligor = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + apsaras + forneus = legion
+--------------------------------------------
+genbu garuda - y
+--------------------------------------------
+genbu + anubis = dionysus
+dionysus + ganga = kaiwan
+kaiwan + neko shogun + ganesha = garuda
+--------------------------------------------
+thor atavaka - y
+--------------------------------------------
+thor + gurr + nekomata = anubis
+anubis + angel + archangel = melchizedek
+melchizedek + uriel = michael
+michael + mara = atavaka
+--------------------------------------------
+unicorn surt - n
+--------------------------------------------
+--------------------------------------------
+naga principality - y
+--------------------------------------------
+naga + apsaras = pyro jack
+pyro jack + orpheus = berith
+berith + forneus + angel = principality
+--------------------------------------------
+kingu taraka - y
+--------------------------------------------
+kingu + angel = incubus
+incubus + legion = mothman
+mothman + yomotsu shikome + naga = taraka
+--------------------------------------------
+anubis vetala - y
+--------------------------------------------
+anubis + angel + archangel = melchizedek
+melchizedek + valkyrie = okuninushi
+okuninushi + forneus = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras + inugami = hua po
+hua po + lilim + inugami = vetala
+--------------------------------------------
+oberon narasimha - y
+--------------------------------------------
+oberon + jack frost = genbu
+genbu + omoikane = jikokuten
+jikokuten + valkyrie + hanuman = narasimha
+--------------------------------------------
+nandi alice - y
+--------------------------------------------
+nandi + angel = king frost
+king frost + nekomata = genbu
+genbu + forneus = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + omoikane = ares
+ares + slime + pixie = narcissus
+narcissus + lilim + pixie + nata taishi = alice
+--------------------------------------------
+trumpeter kumbhanda - y
+--------------------------------------------
+trumpeter + apsaras = yaksini
+yaksini + ara mitama = incubus
+incubus + legion = mothman
+mothman + yomotsu shikome + nebiros = kumbhanda
+--------------------------------------------
+saki mitama incubus - y
+--------------------------------------------
+saki mitama + ghoul = incubus
+--------------------------------------------
+thoth asura - y
+--------------------------------------------
+thoth + omoikane + berith = hokuto seikun
+hokuto seikun + pixie + odin = horus
+horus + yatagarasu + quetzalcoatl + jatayu + suparna + vishnu = asura
+--------------------------------------------
+orobas take mikazuchi - y
+--------------------------------------------
+orobas + ara mitama = incubus
+incubus + ara mitama = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras + forneus = legion
+legion + ara mitama + angel = titan
+titan + yomotsu shikome + omoikane = take mikazuchi
+--------------------------------------------
+kurama tengu yurlungur - y
+--------------------------------------------
+kurama tengu + oumitsunu = okuninushi
+okuninushi + nigi mitama + byakko = yurlungur
+--------------------------------------------
+berith succubus - y
+--------------------------------------------
+berith + apsaras = ares
+ares + apsaras + inugami = hua po
+hua po + ara mitama = incubus
+incubus + lilim + mokoi = succubus
+--------------------------------------------
+kartikeya sandalphon - y
+--------------------------------------------
+kartikeya + neko shogun = kaiwan
+kaiwan + neko shogun + ganesha = garuda
+garuda + suzaku + yatagarasu + gurr + horus = sandalphon
+--------------------------------------------
+omoikane angel - y
+--------------------------------------------
+omoikane + apsaras = chimera
+chimera + omoikane = archangel
+archangel + pixie + apsaras = slime
+slime + legion = orpheus
+orpheus + apsaras = angel
+--------------------------------------------
+queen mab masakado - y
+--------------------------------------------
+queen mab + ghoul = incubus
+incubus + yomotsu shikome + suzaku = bishamonten
+bishamonten + jikokuten + koumokuten + zouchouten = masakado
+--------------------------------------------
+orpheus nigi mitama - y
+--------------------------------------------
+orpheus + angel = alp
+alp + angel = chimera
+chimera + yomotsu shikome = nigi mitama
+--------------------------------------------
+shiva flauros - y
+--------------------------------------------
+shiva + anubis = ananta
+ananta + yomotsu shikome = kaiwan
+kaiwan + pixie = flauros
+--------------------------------------------
+ananta loa - y
+--------------------------------------------
+ananta + parvati = gabriel
+gabriel + leanan sidhe = laksmi
+laksmi + ara mitama = incubus
+incubus + naga = loa
+--------------------------------------------
+sati throne - y
+--------------------------------------------
+sati + gurr = sarasvati
+sarasvati + omoikane = ares
+ares + pixie + ara mitama = power
+power + angel + dominion = throne
+--------------------------------------------
+lachesis raja naga - y
+--------------------------------------------
+lachesis + fortuna = clotho
+clotho + yatagarasu = seiryuu
+seiryuu + apsaras = leanan sidhe
+leanan sidhe + angel = king frost
+king frost + forneus + oberon = raja naga
+--------------------------------------------
+ghoul okuninushi - y
+--------------------------------------------
+ghoul + apsaras = king frost
+king frost + ares = mothman
+mothman + koumokuten = okuninushi
+--------------------------------------------
+high pixie orthrus - y
+--------------------------------------------
+high pixie + forneus + ara mitama = legion
+legion + valkyrie = orthrus
+--------------------------------------------
+titania kikuri hime - y
+--------------------------------------------
+titania + gurr = leanan sidhe
+leanan sidhe + angel = king frost
+king frost + nekomata = genbu
+genbu + forneus = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + apsaras + parvati = kikuri hime
+--------------------------------------------
+nata taishi gabriel - y
+--------------------------------------------
+nata taishi + eligor = dionysus
+dionysus + gurr + yamatano orochi = chernobog
+chernobog + cybele = gabriel
+--------------------------------------------
+empusa lilim - y
+--------------------------------------------
+empusa + inugami = jikokuten
+jikokuten + omoikane = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + orpheus = archangel
+archangel + pixie = chimera
+chimera + apsaras = jack frost
+jack frost + pixie = forneus
+forneus + angel = lilim
+--------------------------------------------
+oumitsunu titania - y
+--------------------------------------------
+oumitsunu + fortuna = jikokuten
+jikokuten + omoikane = sarasvati
+sarasvati + omoikane = ares
+ares + slime + pixie = narcissus
+narcissus + pixie + alp = queen mab
+queen mab + pixie + saki mitama = titania
+--------------------------------------------
+daisoujou beelzebub - y
+--------------------------------------------
+daisoujou + thanatos = hariti
+hariti + ara mitama = abaddon
+abaddon + baal zebul + incubus + succubus + pazuzu + lilith = beelzebub
+--------------------------------------------
+loki nekomata - y
+--------------------------------------------
+loki + eligor = dionysus
+dionysus + pixie = leanan sidhe
+leanan sidhe + angel = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + pixie + angel = slime
+slime + legion = orpheus
+orpheus + pixie = apsaras
+apsaras + pixie = nekomata
+--------------------------------------------
+suparna nebiros - y
+--------------------------------------------
+suparna + apsaras = nandi
+nandi + pixie = flauros
+flauros + legion = mothman
+mothman + yomotsu shikome + kurama tengu = nebiros
+--------------------------------------------
+lilim thor - y
+--------------------------------------------
+lilim + valkyrie = fortuna
+fortuna + gurr = ares
+ares + ara mitama + koumokuten = thor
+--------------------------------------------
+hariti mara - y
+--------------------------------------------
+hariti + leanan sidhe = yaksini
+yaksini + sati = ubelluris
+ubelluris + eligor = mot
+mot + incubus + pazuzu + kumbhanda + zouchouten = mara
+--------------------------------------------
+principality apsaras - y
+--------------------------------------------
+principality + ara mitama = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + pixie + angel = slime
+slime + legion = orpheus
+orpheus + pixie = apsaras
+--------------------------------------------
+nandi scathach - n
+--------------------------------------------
+--------------------------------------------
+lilith rakshasa - y
+--------------------------------------------
+lilith + fortuna = dionysus
+dionysus + pixie = leanan sidhe
+leanan sidhe + angel = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + orpheus = berith
+berith + yomotsu shikome + ara mitama = rakshasa
+--------------------------------------------
+eligor ara mitama - y
+--------------------------------------------
+eligor + take minakata = loa
+loa + apsaras = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + orpheus = archangel
+archangel + pixie = chimera
+chimera + orpheus = forneus
+forneus + orpheus = ara mitama
+--------------------------------------------
+shiisaa kohryu - y
+--------------------------------------------
+shiisaa + gurr = genbu
+genbu + seiryuu + suzaku + byakko = kohryu
+--------------------------------------------
+titan mother harlot - y
+--------------------------------------------
+titan + angel = genbu
+genbu + baal zebul = laksmi
+laksmi + gabriel = mother harlot
+--------------------------------------------
+thor hokuto seikun - y
+--------------------------------------------
+thor + eligor = dionysus
+dionysus + apsaras = nandi
+nandi + pixie = flauros
+flauros + omoikane + thoth = hokuto seikun
+-------------------------------------------- NEW
+sandalphon horus - y
+--------------------------------------------
+sandalphon + apsaras = kaiwan
+kaiwan + fortuna = dionysus
+dionysus + apsaras = nandi
+nandi + pixie = flauros
+flauros + omoikane + thoth = hokuto seikun
+hokuto seikun + pixie + odin = horus
+--------------------------------------------
+thor black frost - y
+--------------------------------------------
+thor + eligor = dionysus
+dionysus + apsaras = nandi
+nandi + angel = king frost
+king frost + jack frost + pyro jack + queen mab = black frost
+--------------------------------------------
+samael unicorn - y
+--------------------------------------------
+samael + apsaras = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+--------------------------------------------
+thor gurr - y
+--------------------------------------------
+thor + orpheus = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + pixie + angel = gurr
+--------------------------------------------
+alice setanta - y
+--------------------------------------------
+alice + angel = dionysus
+dionysus + apsaras = nandi
+nandi + omoikane = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras + forneus = legion
+legion + lilim + forneus = setanta
+--------------------------------------------
+vishnu baal zebul - y
+--------------------------------------------
+vishnu + anubis = saturnus
+saturnus + loki = ananta
+ananta + fortuna = abaddon
+abaddon + fortuna = dionysus
+dionysus + gurr + seth = baal zebul
+--------------------------------------------
+ananta power - y
+--------------------------------------------
+ananta + fortuna = abaddon
+abaddon + fortuna = dionysus
+dionysus + apsaras = nandi
+nandi + omoikane = sarasvati
+sarasvati + omoikane = ares
+ares + pixie + ara mitama = power
+--------------------------------------------
+chi you jack frost - y
+--------------------------------------------
+chi you + anubis = ananta
+ananta + yomotsu shikome = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + orpheus = archangel
+archangel + pixie = chimera
+chimera + apsaras = jack frost
+--------------------------------------------
+satan orpheus telos - y
+--------------------------------------------
+satan + masakado = atavaka
+atavaka + apsaras + fortuna = chi you
+chi you + cybele = helel
+helel + thanatos + asura + chi you + metatron + messiah = orpheus telos
+--------------------------------------------
+ubelluris girimehkala - y
+--------------------------------------------
+ubelluris + archangel = clotho
+clotho + yatagarasu = seiryuu
+seiryuu + orpheus = flauros
+flauros + legion = mothman
+mothman + yomotsu shikome + naga = taraka
+taraka + gurr + rangda + vetala = girimehkala
+--------------------------------------------
+pazuzu take minakata - y
+--------------------------------------------
+pazuzu + fortuna = dionysus
+dionysus + apsaras = nandi
+nandi + omoikane = sarasvati
+sarasvati + omoikane = ares
+ares + slime + pixie = narcissus
+narcissus + yomotsu shikome + apsaras = take minakata
+--------------------------------------------
+nebiros uriel - y
+--------------------------------------------
+nebiros + genbu = ubelluris
+ubelluris + lilim = dionysus
+dionysus + gurr + yamatano orochi = chernobog
+chernobog + lilim + pixie = uriel
+--------------------------------------------
+yaksini jatayu - y
+--------------------------------------------
+yaksini + nekomata = vasuki
+vasuki + eligor = samael
+samael + pixie + forneus = cu chulainn
+cu chulainn + pixie + nebiros = jatayu
+--------------------------------------------
+tam lin yamatano orochi - y
+--------------------------------------------
+tam lin + angel = ares
+ares + apsaras + inugami = hua po
+hua po + pixie + inugami = mithra
+mithra + apsaras + inugami = yamatano orochi
+--------------------------------------------
+jikokuten attis - y
+--------------------------------------------
+jikokuten + angel = genbu
+genbu + apsaras = leanan sidhe
+leanan sidhe + nandi = okuninushi
+okuninushi + king frost = ubelluris
+ubelluris + inugami + take minakata + orthrus + vasuki = attis
+--------------------------------------------
+fortuna asura - y
+--------------------------------------------
+fortuna + gurr = ares
+ares + rakshasa = empusa
+empusa + yatagarasu = genbu
+genbu + orpheus = flauros
+flauros + omoikane + thoth = hokuto seikun
+hokuto seikun + pixie + odin = horus
+horus + yatagarasu + quetzalcoatl + jatayu + suparna + vishnu = asura
+--------------------------------------------
+melchizedek sati - y
+--------------------------------------------
+melchizedek + eligor = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + apsaras + inugami = hua po
+hua po + nekomata + jack frost = sati
+--------------------------------------------
+taraka narasimha - y
+--------------------------------------------
+taraka + ara mitama = genbu
+genbu + omoikane = jikokuten
+jikokuten + valkyrie + hanuman = narasimha
+--------------------------------------------
+raphael tam lin - y
+--------------------------------------------
+raphael + eligor = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + pixie + angel = slime
+slime + pixie + angel = tam lin
+--------------------------------------------
+masakado rangda - n
+--------------------------------------------
+--------------------------------------------
+slime michael - y
+--------------------------------------------
+slime + forneus = ares
+ares + gurr + surt = anubis
+anubis + angel + archangel = melchizedek
+melchizedek + uriel = michael
+--------------------------------------------
+omoikane hell biker - y
+--------------------------------------------
+omoikane + apsaras = chimera
+chimera + lilim = inugami
+inugami + take minakata + hecatoncheires = hell biker
+--------------------------------------------
+skadi taraka - y
+--------------------------------------------
+skadi + ara mitama = abaddon
+abaddon + ara mitama = ubelluris
+ubelluris + inugami = vasuki
+vasuki + eligor = samael
+samael + pixie = incubus
+incubus + legion = mothman
+mothman + yomotsu shikome + naga = taraka
+--------------------------------------------
+loa odin - y
+--------------------------------------------
+loa + apsaras = king frost
+king frost + forneus + barong = odin
+--------------------------------------------
+sarasvati nandi - y
+--------------------------------------------
+sarasvati + apsaras + unicorn = ganga
+ganga + gurr = nandi
+--------------------------------------------
+sati throne - y
+--------------------------------------------
+sati + gurr = sarasvati
+sarasvati + omoikane = ares
+ares + pixie + ara mitama = power
+power + angel + dominion = throne
+--------------------------------------------
+mothman hariti - y
+--------------------------------------------
+mothman + jikokuten = clotho
+clotho + lilim = dionysus
+dionysus + cybele = hariti
+--------------------------------------------
+orthrus kikuri hime - y
+--------------------------------------------
+orthrus + ara mitama = sarasvati
+sarasvati + apsaras + parvati = kikuri hime
+--------------------------------------------
+chernobog cybele - n
+--------------------------------------------
+--------------------------------------------
+archangel pyro jack - y
+--------------------------------------------
+archangel + ara mitama = pyro jack
+--------------------------------------------
+surt laksmi - y
+--------------------------------------------
+surt + kaiwan = laksmi
+--------------------------------------------
+tam lin hokuto seikun - y
+--------------------------------------------
+tam lin + valkyrie = flauros
+flauros + omoikane + thoth = hokuto seikun
+--------------------------------------------
+nidhoggr helel - y
+--------------------------------------------
+nidhoggr + ananta = atavaka
+atavaka + apsaras + fortuna = chi you
+chi you + cybele = helel
+--------------------------------------------
+shiisaa leanan sidhe - y
+--------------------------------------------
+shiisaa + fortuna = king frost
+king frost + yatagarasu = leanan sidhe
+--------------------------------------------
+mokoi kaiwan - y
+--------------------------------------------
+mokoi + fortuna = dionysus
+dionysus + ganga = kaiwan
+--------------------------------------------
+uriel vetala - y
+--------------------------------------------
+uriel + ganga = laksmi
+laksmi + ara mitama = incubus
+incubus + ara mitama = orthrus
+orthrus + ara mitama = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras + inugami = hua po
+hua po + lilim + inugami = vetala
+--------------------------------------------
+horus rakshasa - y
+--------------------------------------------
+horus + high pixie = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + orpheus = berith
+berith + yomotsu shikome + ara mitama = rakshasa
+--------------------------------------------
+metatron fortuna - y
+--------------------------------------------
+metatron + uriel = atavaka
+atavaka + uriel = ananta
+ananta + yomotsu shikome = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + valkyrie = fortuna
+--------------------------------------------
+trumpeter hanuman - y
+--------------------------------------------
+trumpeter + apsaras = yaksini
+yaksini + angel = king frost
+king frost + nekomata = genbu
+genbu + omoikane = jikokuten
+jikokuten + valkyrie + rakshasa = hanuman
+--------------------------------------------
+samael arahabaki - y
+--------------------------------------------
+samael + gurr = nandi
+nandi + leanan sidhe = okuninushi
+okuninushi + omoikane + take minakata + kikuri hime = arahabaki
+--------------------------------------------
+seth mot - y
+--------------------------------------------
+seth + gurr = dionysus
+dionysus + setanta = mot
