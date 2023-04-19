@@ -623,3 +623,69 @@ seth mot - y
 --------------------------------------------
 seth + gurr = dionysus
 dionysus + setanta = mot
+--------------------------------------------
+taraka vetala - y
+--------------------------------------------
+taraka + angel = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras + inugami = hua po
+hua po + lilim + inugami = vetala
+--------------------------------------------
+kumbhanda orobas - n
+--------------------------------------------
+--------------------------------------------
+jatayu throne - n
+--------------------------------------------
+--------------------------------------------
+messiah tam lin - y
+--------------------------------------------
+messiah + bishamonten = atavaka
+atavaka + yomotsu shikome = kaiwan
+kaiwan + angel = king frost
+king frost + orpheus = ares
+ares + apsaras = pyro jack
+pyro jack + forneus = nigi mitama
+nigi mitama + pixie = unicorn
+unicorn + pixie + angel = slime
+slime + pixie + angel = tam lin
+--------------------------------------------
+high pixie pale rider - y
+--------------------------------------------
+high pixie + yomotsu shikome = take minakata
+take minakata + pixie + nekomata = mithra
+mithra + mokoi = pale rider
+--------------------------------------------
+ara mitama kali - y
+--------------------------------------------
+ara mitama + chimera = ares
+ares + fortuna = jikokuten
+jikokuten + valkyrie + narasimha = kali
+--------------------------------------------
+odin thor - n
+--------------------------------------------
+--------------------------------------------
+unicorn hariti - y
+--------------------------------------------
+unicorn + apsaras + sarasvati = ganga
+ganga + satan = hariti
+--------------------------------------------
+parvati titan - y
+--------------------------------------------
+parvati + apsaras = sarasvati
+sarasvati + omoikane = ares
+ares + apsaras + forneus = legion
+legion + ara mitama + angel = titan
+--------------------------------------------
+succubus byakko - y
+--------------------------------------------
+succubus + sati = okuninushi
+okuninushi + nigi mitama + suzaku = byakko
+--------------------------------------------
+kingu dionysus - y
+--------------------------------------------
+kingu + ghoul = dionysus
+--------------------------------------------
+chimera omoikane - y
+--------------------------------------------
+chimera + apsaras = jack frost
+jack frost + orpheus = omoikane

@@ -17,6 +17,22 @@
 
  --- 4/18/2023 ---
 
+ -> Note: Some combinations results in path.py stalling, and it might just be
+ that the path isn't possible or it's taking super long.
+ It's only 9/100 of them, so it works a 91% of the time.
+ I might just have it time out if it's like this and prompt to try shorter paths.
+
+ Final stats with 100 tests:
+
+ Arcana Count:
+ {'devil': 9, 'lovers': 7, 'aeon': 5, 'fool': 6, 'justice': 6, 'priestess': 8, 'chariot': 8, 'sun': 8, 'moon': 7, 'emperor': 6, 'hierophant': 6, 'tower': 7, 'temperance': 8, 'fortune': 4, 'empress': 6, 'star': 9, 'death': 5, 'strength': 6, 'hanged man': 7, 'magician': 8, 'hermit': 8, 'judgment': 5}
+
+ The most used persona is apsaras with 57 uses.
+ The most used arcana is devil with 9 uses.
+ list of personas used zero times:  ['alice', 'alilat', 'arahabaki', 'atropos', 'attis', 'beelzebub', 'black frost', 'daisoujou', 'decarabia', 'girimehkala', 'hell biker', 'kali', 'kartikeya', 'kingu', 'kohryu', 'kusi mitama', 'lachesis', 'lamia', 'loa', 'mother harlot', 'nidhoggr', 'norn', 'orobas', 'orpheus telos', 'ose', 'pale rider', 'principality', 'raja naga', 'raphael', 'sandalphon', 'scathach', 'seiten taisei', 'shiisaa', 'shiva', 'siegfried', 'skadi', 'susano o', 'take mikazuchi', 'tam lin', 'thor', 'throne', 'titan', 'titania', 'trumpeter', 'virtue', 'yurlungur']
+
+ --- 4/18/2023 (v1) ---
+
  Current results with more 88 tests:
  The most used persona is apsaras with 51 uses.
  The most used arcana is devil with 9 uses. (+ star, it's tied)
