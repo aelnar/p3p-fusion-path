@@ -15,7 +15,7 @@
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
 
- --- 4/18/2023 ---
+ --- 4/18/2023 --- EDIT
 
  -> Note: Some combinations results in path.py stalling, and it might just be
  that the path isn't possible or it's taking super long.
@@ -25,10 +25,10 @@
  Final stats with 100 tests:
 
  Arcana Count:
- {'devil': 9, 'lovers': 7, 'aeon': 5, 'fool': 6, 'justice': 6, 'priestess': 8, 'chariot': 8, 'sun': 8, 'moon': 7, 'emperor': 6, 'hierophant': 6, 'tower': 7, 'temperance': 8, 'fortune': 4, 'empress': 6, 'star': 9, 'death': 5, 'strength': 6, 'hanged man': 7, 'magician': 8, 'hermit': 8, 'judgment': 5}
+ {'devil': 8, 'lovers': 6, 'aeon': 4, 'fool': 5, 'justice': 5, 'priestess': 7, 'chariot': 7, 'sun': 7, 'moon': 6, 'emperor': 5, 'hierophant': 5, 'tower': 6, 'temperance': 7, 'fortune': 3, 'empress': 5, 'star': 8, 'death': 4, 'strength': 5, 'hanged man': 6, 'magician': 7, 'hermit': 7, 'judgment': 4}
 
  The most used persona is apsaras with 57 uses.
- The most used arcana is devil with 9 uses.
+ The most used arcana is devil with 8 uses.
  list of personas used zero times:  ['alice', 'alilat', 'arahabaki', 'atropos', 'attis', 'beelzebub', 'black frost', 'daisoujou', 'decarabia', 'girimehkala', 'hell biker', 'kali', 'kartikeya', 'kingu', 'kohryu', 'kusi mitama', 'lachesis', 'lamia', 'loa', 'mother harlot', 'nidhoggr', 'norn', 'orobas', 'orpheus telos', 'ose', 'pale rider', 'principality', 'raja naga', 'raphael', 'sandalphon', 'scathach', 'seiten taisei', 'shiisaa', 'shiva', 'siegfried', 'skadi', 'susano o', 'take mikazuchi', 'tam lin', 'thor', 'throne', 'titan', 'titania', 'trumpeter', 'virtue', 'yurlungur']
 
  --- 4/18/2023 (v1) ---
