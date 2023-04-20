@@ -689,3 +689,6 @@ chimera omoikane - y
 --------------------------------------------
 chimera + apsaras = jack frost
 jack frost + orpheus = omoikane
+--------------------------------------------
+scathach thor - n
+--------------------------------------------
