@@ -1,0 +1,73 @@
+ARCANA STATS:
+{'devil': 8, 'lovers': 6, 'aeon': 4, 'fool': 5, 'justice': 5, 'priestess': 7, 'chariot': 7, 'sun': 7, 'moon': 6, 'emperor': 5, 'hierophant': 5,
+'tower': 6, 'temperance': 7, 'fortune': 3, 'empress': 5, 'star': 8, 'death': 4, 'strength': 5, 'hanged man': 6, 'magician': 7, 'hermit': 7, 'judgment': 4}
+
+fool - 5/9
+magician - 7/8
+priestess - 7/8
+empress - 5/8
+emperor - 5/8
+hierophant - 5/8
+lovers - 6/9
+chariot - 7/8
+justice - 5/8
+hermit - 7/9
+fortune - 3/7
+strength - 5/8
+hanged man - 6/8
+death - 4/7
+temperance - 7/8
+devil - 8/9
+tower - 6/8
+star - 8/9
+moon - 6/8
+sun - 7/7
+judgment - 4/6
+aeon - 4/5
+
+Most used: Devil (8/9), Star (8/9)
+Least used: Aeon (4/5), Death (4/7), Judgment (4/6)
+All Personas used in Arcana: Sun (7/7)
+Arcanas that are one off from all Personas being used: Magician, Priestess, Chariot, Justice, Temperance, Devil, Star, Aeon
+
+Most Arcanas are one or two Personas away from all Personas in it being used.
+The least used Arcana is the Fool at 5/9. (Black Frost, Decarabia, Orpheus Telos, Ose, Susano O not used)
+
+PERSONA STATS:
+{'abaddon': 4, 'alice': 0, 'alilat': 0, 'alp': 3, 'ananta': 6, 'angel': 42, 'anubis': 6, 'apsaras': 57, 'ara mitama': 33, 'arahabaki': 0, 'archangel': 8,
+'ares': 34, 'asura': 1, 'atavaka': 4, 'atropos': 0, 'attis': 0, 'baal zebul': 1, 'barong': 1, 'beelzebub': 0, 'berith': 4, 'bishamonten': 3,
+'black frost': 0, 'byakko': 2, 'chernobog': 2, 'chi you': 3, 'chimera': 8, 'clotho': 3, 'cu chulainn': 1, 'cybele': 4, 'daisoujou': 0, 'decarabia': 0,
+'dionysus': 15, 'dominion': 2, 'eligor': 10, 'empusa': 1, 'flauros': 6, 'forneus': 26, 'fortuna': 16, 'gabriel': 2, 'ganesha': 1, 'ganga': 5, 'garuda': 1,
+'genbu': 11, 'ghoul': 3, 'girimehkala': 0, 'gurr': 16, 'hanuman': 2, 'hariti': 1, 'hecatoncheires': 1, 'helel': 1, 'hell biker': 0, 'high pixie': 1,
+'hokuto seikun': 3, 'horus': 3, 'hua po': 7, 'incubus': 11, 'inugami': 17, 'jack frost': 5, 'jatayu': 2, 'jikokuten': 9, 'kaiwan': 12, 'kali': 0,
+'kartikeya': 0, 'kikuri hime': 1, 'king frost': 22, 'kingu': 0, 'kohryu': 0, 'koumokuten': 3, 'kumbhanda': 1, 'kurama tengu': 1, 'kusi mitama': 0,
+'lachesis': 0, 'laksmi': 3, 'lamia': 0, 'leanan sidhe': 8, 'legion': 13, 'lilim': 11, 'lilith': 1, 'loa': 0, 'loki': 1, 'lucifer': 1, 'mara': 1,
+'masakado': 1, 'melchizedek': 3, 'messiah': 1, 'metatron': 1, 'michael': 1, 'mithra': 2, 'mokoi': 2, 'mot': 1, 'mother harlot': 0, 'mothman': 6, 'naga': 4,
+'nandi': 9, 'narasimha': 1, 'narcissus': 3, 'nata taishi': 1, 'nebiros': 2, 'neko shogun': 3, 'nekomata': 7, 'nidhoggr': 0, 'nigi mitama': 12, 'norn': 0,
+'oberon': 1, 'odin': 3, 'okuninushi': 5, 'omoikane': 29, 'orobas': 0, 'orpheus': 27, 'orpheus telos': 0, 'orthrus': 8, 'ose': 0, 'oumitsunu': 1, 'pale rider': 0,
+'parvati': 3, 'pazuzu': 2, 'pixie': 51, 'power': 2, 'principality': 0, 'pyro jack': 14, 'queen mab': 2, 'quetzalcoatl': 2, 'raja naga': 0, 'rakshasa': 2,
+'rangda': 1, 'raphael': 0, 'saki mitama': 1, 'samael': 2, 'sandalphon': 0, 'sarasvati': 19, 'satan': 1, 'sati': 2, 'saturnus': 1, 'scathach': 0, 'seiryuu': 3,
+'seiten taisei': 0, 'setanta': 1, 'seth': 1, 'shiisaa': 0, 'shiva': 0, 'siegfried': 0, 'skadi': 0, 'slime': 10, 'succubus': 1, 'suparna': 2, 'surt': 1,
+'susano o': 0, 'suzaku': 4, 'take mikazuchi': 0, 'take minakata': 5, 'tam lin': 0, 'taraka': 2, 'thanatos': 2, 'thor': 0, 'thoth': 4, 'throne': 0, 'titan': 0,
+'titania': 0, 'trumpeter': 0, 'ubelluris': 4, 'unicorn': 9, 'uriel': 4, 'valkyrie': 10, 'vasuki': 3, 'vetala': 1, 'virtue': 0, 'vishnu': 2, 'yaksini': 3,
+'yamatano orochi': 2, 'yatagarasu': 7, 'yomotsu shikome': 17, 'yurlungur': 0, 'zouchouten': 2}
+
+The most used persona is Apsaras with 57 uses.
+Top 5: [('apsaras', 57), ('pixie', 51), ('angel', 42), ('ares', 34), ('ara mitama', 33)] -> [Priestess 3, Lovers 2, Justice 4, Chariot 19, Chariot 6]
+
+List of personas used zero times:  ['alice', 'alilat', 'arahabaki', 'atropos', 'attis', 'beelzebub', 'black frost',
+'daisoujou', 'decarabia', 'girimehkala', 'hell biker', 'kali', 'kartikeya', 'kingu', 'kohryu', 'kusi mitama', 'lachesis',
+'lamia', 'loa', 'mother harlot', 'nidhoggr', 'norn', 'orobas', 'orpheus telos', 'ose', 'pale rider', 'principality', 'raja naga',
+'raphael', 'sandalphon', 'scathach', 'seiten taisei', 'shiisaa', 'shiva', 'siegfried', 'skadi', 'susano o', 'take mikazuchi', 'tam lin',
+'thor', 'throne', 'titan', 'titania', 'trumpeter', 'virtue', 'yurlungur']
+
+PATHS NOT FOUND:
+yaksini -> thor
+unicorn -> surt
+nandi -> scathach
+masakado -> rangda
+chernobog -> cybele
+kumbhanda -> orobas
+jatayu -> throne
+scathach -> thor
+odin -> thor
