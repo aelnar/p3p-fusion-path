@@ -29,10 +29,30 @@ function find_next_persona(curr){
 
 // find out if triple fusion is all the same arcana
 function check_triple_arcana(spread){
-    if(spread[0] == spread[1] == spread[2]){
+    if (spread[0] == spread[1] && spread[0] == spread[2] && spread[1] == spread[2]){
         return true;
+    } else {
+      return false;
     }
-    return false;
+}
+
+// find arcana with most # of personas in it for looping purposes
+function find_max_arcana(tf){
+    // get lengths of arcanas minus the curr one bc we dont want that
+    var t1 = [];
+    for (let t in tf){
+          t1.push([tf[t], persona_arcanas[tf[t]].length]);
+    }
+    // use this to loop through max arcana
+    // (max arcana, second max arcana)
+    max_arcana = 0;
+    if (t1[0][1] >= t1[0][1]){
+        max_arcana = [t1[0][0], t1[1][0]];
+    } else {
+        max_arcana = [t1[1][0], t1[0][0]];
+    }
+
+    return max_arcana;
 }
 
 /*
@@ -91,7 +111,7 @@ function special_spreads(curr){
         // turn tuple into list, append resulting persona at end, then append it as a tuple again
         // makes it consistent with other fcns in this file
         if(special_fusions[sf].includes(curr)){
-            sf_list = special_fusions[sf];
+            sf_list = [...special_fusions[sf]];
             sf_list.push(sf);
             results.push(sf_list);
         }
@@ -110,50 +130,68 @@ function triple_spreads(curr){
     var cl = find_base_lvl(curr); // base level of current persona
     var ca = find_persona_arcana(curr); // arcana of current persona
 
-    /*
-    # if curr in triple fusion arcanas
-    # see if it's a triple arcana fusion or not
-    for tf in triple_fusions: # for each triple fusion
+    // if curr in triple fusion arcanas
+    // see if it's a triple arcana fusion or not
+    for (let tf in triple_fusions){ // for each triple fusion
+        var triple_arcana = check_triple_arcana(triple_fusions[tf]); // see if it's triple arcana spread
 
-        triple_arcana = check_triple_arcana(triple_fusions[tf]) # see if it's triple arcana spread
-        if(triple_arcana == True and ca in triple_fusions[tf]): # we have a triple spread; we'll only look if curr arcana is in that spread
-            # we love a nested loop /j
-            for p1 in persona_arcanas[ca]: # in each persona in curr persona arcana
-                if(p1[0] == curr or p1[0] in special_fusions_list): # curr persona or it's a special fusion
-                    continue
-                for p2 in persona_arcanas[ca]:
-                    if(p2[0] == curr or p2[0] in special_fusions_list or p1[0] == p2[0]): # curr persona or it's a special fusion or it's the same persona as p1
-                        continue
+        if(triple_arcana == true && triple_fusions[tf].includes(ca)){ // we have a triple spread; we'll only look if curr arcana is in that spread
+            // we love a nested loop /j
+            for (let p1 in persona_arcanas[ca]){ // in each persona in curr persona arcana; persona_arcanas[ca][p1][0] -> name, persona_arcanas[ca][p1][1] -> lvl
+                if(persona_arcanas[ca][p1][0] == curr || (special_fusions_list.includes(persona_arcanas[ca][p1][0]))){ // curr persona or it's a special fusion
+                    continue;
+                }
+                for (let p2 in persona_arcanas[ca]){
+                    if(persona_arcanas[ca][p2][0] == curr || (special_fusions_list.includes(persona_arcanas[ca][p2][0])) ||
+                       persona_arcanas[ca][p1][0] == persona_arcanas[ca][p2][0]){ // curr persona or it's a special fusion or it's the same persona as p1
+                        continue;
+                    }
 
-                    # calculate the base lvl of these personas
-                    lvl_avg = ((cl + p1[1] + p2[1]) / 3 ) + 5
-                    # if calculated lvl average > tf base lvl and the (resulting base lvl - 10) <= max lvl of the lvls <= resulting base lvl and tf not in recipe
-                    if(lvl_avg < find_base_lvl(tf) and (find_base_lvl(tf) - 10) <= max([cl, p1[1], p2[1]]) <= find_base_lvl(tf) and tf != p1[0] and tf != p2[0]):
-                        results.append((p1[0], p2[0], tf))
-        else: # not a triple spread; a mix of arcanas
+                    // calculate the base lvl of these personas
+                    var lvl_avg = ((cl + persona_arcanas[ca][p1][1] + persona_arcanas[ca][p2][1]) / 3 ) + 5;
+                    // if calculated lvl average > tf base lvl and the (resulting base lvl - 10) <= max lvl of the lvls <= resulting base lvl and tf not in recipe
+                    if(lvl_avg < find_base_lvl(tf) && (find_base_lvl(tf) - 10) <=
+                    Math.max(cl, persona_arcanas[ca][p1][1], persona_arcanas[ca][p2][1]) <= find_base_lvl(tf) &&
+                    tf != persona_arcanas[ca][p1][0] && tf != persona_arcanas[ca][p2][0]){
+                        results.push([persona_arcanas[ca][p1][0], persona_arcanas[ca][p2][0], tf]);
+                    } // push if
+                } // p2 for
+          } // p1 for
+        } // triple arcana true if
+        else{ // not a triple spread; a mix of arcanas
 
-            if(ca in triple_fusions[tf]): # if curr persona arcana is in these triple fusions
+            if(triple_fusions[tf].includes(ca)){ // if curr persona arcana is in these triple fusions
 
-                # take out first instance of curr arcana -> sometimes recipe is something like chariot, chariot, lovers
-                tf_list = list(triple_fusions[tf])
-                tf_list.remove(ca)
-                tf_final = tuple(tf_list)
-                max_arcana = find_max_arcana(tf_final, ca) # need this for looping purposes /smile
-                for p1 in persona_arcanas[max_arcana[0]]:
-                        if (p1[0] in special_fusions_list): # dont use this if special fusion
-                            continue
-                        for p2 in persona_arcanas[max_arcana[1]]:
-                            if (p2[0] in special_fusions_list): # dont use if special fusion
-                                continue
-
-                            # calculate the base lvl of these personas
-                            lvl_avg = ((cl + p1[1] + p2[1]) / 3 ) + 5
-                            # if calculated lvl average > tf base lvl and the (resulting base lvl - 10) <= max lvl of the lvls <= resulting base lvl and tf not in recipe
-                            if(lvl_avg < find_base_lvl(tf) and (find_base_lvl(tf) - 10) <= max([cl, p1[1], p2[1]]) <= find_base_lvl(tf) and tf != p1[0] and tf != p2[0]):
-                                results.append((p1[0], p2[0], tf))
-
-    */
+                // take out first instance of curr arcana -> sometimes recipe is something like chariot, chariot, lovers
+                var v1 = 0;
+                for (let v in triple_fusions[tf]){
+                  if (triple_fusions[tf][v] == ca){
+                  v1 = v;
+                  }
+                }
+                var tf_final = [...triple_fusions[tf]]; // COPY of triple_fusions dont get it twisted
+                tf_final.splice(v1, 1); // this is the thing actually taking out a double arcana if there is one
+                var max_arcana = find_max_arcana(tf_final); // need this for looping purposes /smile
+                for (let p1 in persona_arcanas[max_arcana[0]]){ // persona_arcanas[max_arcana[0]][p1][0] -> name, persona_arcanas[max_arcana[0]][p1][1] -> lvl
+                        if (special_fusions_list.includes(persona_arcanas[max_arcana[0]][p1][0])){ // dont use this if special fusion
+                            continue;
+                        }
+                        for (let p2 in persona_arcanas[max_arcana[1]]){
+                            if (special_fusions_list.includes(persona_arcanas[max_arcana[1]][p2][0])){ // dont use if special fusion
+                                continue;
+                            }
+                            // calculate the base lvl of these personas
+                            lvl_avg = ((cl + persona_arcanas[max_arcana[0]][p1][1] + persona_arcanas[max_arcana[1]][p2][1]) / 3) + 5;
+                            // if calculated lvl average > tf base lvl and the (resulting base lvl - 10) <= max lvl of the lvls <= resulting base lvl and tf not in recipe
+                            if(lvl_avg < find_base_lvl(tf)
+                            && (find_base_lvl(tf) - 10) <= Math.max(cl, persona_arcanas[max_arcana[0]][p1][1], persona_arcanas[max_arcana[1]][p2][1]) <= find_base_lvl(tf)
+                            && tf != persona_arcanas[max_arcana[0]][p1][0] && tf != persona_arcanas[max_arcana[0]][p2][0]){
+                                results.push([persona_arcanas[max_arcana[0]][p1][0], persona_arcanas[max_arcana[0]][p2][0], tf]);
+                            } // inner inner if lvl_avg
+                        } // p2 for loop
+                } // p1 for loop
+              } // if curr in triple fusion
+            } // else
+    } // outer for
     return results; // return list
 }
-
-console.log(triple_spreads('orpheus'));

@@ -15,6 +15,11 @@
  Once this P3P version works, I would like to try making a version for P5R, and maybe
  adding innate vs passed-down skills as well to the path.
 
+ --- 4/25/2023 ---
+
+ Finished p3p_calc.js. Next is making pqueue.js since JS doesn't seem to have any priority
+ queues built in.
+
  --- 4/24/2023 ---
 
  Starting .js files to make this into something hosted by Github. :)
